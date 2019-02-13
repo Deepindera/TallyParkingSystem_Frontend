@@ -1,0 +1,30 @@
+1) Component Tree
+App > Layout :-
+TopBar
+Sections/Panels > Form > UI Elements
+             
+
+
+2) Application State
+  Parking object that has 
+  a) Entry Date and Time
+  b) Exit Date and Time
+  c) Vehicle Rego
+  d) Amount
+  e) Calculated Flag
+  f) Rate Type
+  g) Rate Name
+  
+State > Parking Object > Props of UI Components
+Calculate Button > Redux Connect > Axios > API 
+Component Props < Redux Connect < Parking Object < State < Redux < Axios < API
+
+Redux - We will use Redux to maintain app state for us and this is where app will talk to API
+Axios - We will use http client to make api calls
+
+3) Components
+  a) DateTime Picker for recording entry and exit times
+  b) Form
+  c) Result Panel to show calculated fee
+  d) Loading Indicator
+  e) Top Bar with Logo

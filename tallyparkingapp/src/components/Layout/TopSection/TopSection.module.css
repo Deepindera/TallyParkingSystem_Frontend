@@ -1,0 +1,16 @@
+.logo {
+  height: 80px;
+  pointer-events: none;
+  padding: 10px 30px;
+}
+
+header {
+  background-color: #005AA4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  font-weight: bold;
+  color: white;
+}

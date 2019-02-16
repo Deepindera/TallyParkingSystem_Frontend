@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Wrapper from '../../hoc/Wrapper';
 import DatePicker from '../../components/DatePicker/DatePicker';
 import TimePicker from '../../components/TimePicker/TimePicker';
 import TextField from '@material-ui/core/TextField';

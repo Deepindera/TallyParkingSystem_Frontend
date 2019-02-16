@@ -6,7 +6,6 @@ import Notifier  from './containers/Notifier/Notifier';
 
 class App extends Component {
   
-
   render() {
     return (
       <div className="App">

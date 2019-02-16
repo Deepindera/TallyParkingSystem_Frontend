@@ -1,0 +1,9 @@
+.parkingform, .parkingresult{    
+    margin: 0 auto; 
+    display: inline-block;   
+    vertical-align: top;
+}
+
+.button{
+    margin-top: 30px; 
+}

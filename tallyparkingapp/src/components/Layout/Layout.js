@@ -1,13 +1,13 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Wrapper from '../../hoc/Wrapper';
 import TopSection from '../Layout/TopSection/TopSection';
 const layout = (props) => (
-    <Aux>
+    <Wrapper>
         <TopSection></TopSection>
         <main>
         {props.children}
         </main>
-    </Aux>
+    </Wrapper>
 );
 
 export default layout;

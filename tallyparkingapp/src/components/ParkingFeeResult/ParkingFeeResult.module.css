@@ -1,0 +1,30 @@
+.news{
+    color:green;
+}
+.terms{
+    color:#999;
+}
+.terms span{
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+table tr td{
+text-align: left;
+}
+table tr td:first-child{
+    width:90px;
+    text-align: left;
+}
+table tr td:last-child{
+ font-weight: bold;   
+}
+table tr.feeRow td{
+    font-size: 20px;
+    color:#bb0000;
+    font-weight: bold;
+    }
+
+    h4{
+        color:#999;
+    }
